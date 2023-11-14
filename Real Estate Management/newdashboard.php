@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<title>DASHBOARD</title>
+<link rel="stylesheet" type="text/css" href="dashboard.css">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>	
+	<section class="dash">
+	<h1>DASHBOARD</h1>
+
+	<div class="user">
+		<div class="user-pic">
+			<img src="images/Asa.jpg" >
+		</div>
+		<h3>Hi</h3>
+	</div>
+</section>
+<div class="login-cont">
+
+</div>
+<div class="cont1">
+		<a class="button"href="config/file-upload.inc.php">change profile image </a>
+		<a class="button"href="logout.php">Log out </a>
+</div>
+
+<section class="Admin-cont">
+	<ul class="cont">
+		<li class="list">Auction Property</li>
+		<li class="list">Sell Property</li>
+		<li class="list">Buy Property </li>
+		<li class="list">Bided Property</li>
+
+	</ul>
+</section>
+
+<section class="upload">
+	<div class="geo">
+		<h3>Aunction Properties</h3>
+
+		<div class="table"> 
+<table>
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th><img src=""></th>
+			<th>Decription</th>
+			<th>Time left</th>
+			<th>Amount</th>
+			<th>input Amount</th>
+			<th>Bid</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td><img class="img3" src="image/b1.jpg"></td>
+			<td>Well furnished and spacious 2 bedroom apartment, Orazi, Port Harcourt, Rivers State.</td>
+			<td>1 day</td>
+			<td>N650,000</td>
+			<td><input class="tab-input" type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td><img class="img3" src="image/b2.jpg"></td>
+			<td>Beautiful 2 Bedroom luxury apartments. At Ada George, Port Harcourt, Rivers State.  </td>
+			<td>12 days</td>
+			<td>N6,500,000</td>
+			<td><input type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td><img class="img3" src="image/5.jpeg"></td>
+			<td>Beautiful 5 Bedroom Private Self -Compound Apartment With Swimming at GRA Port Harcourt, Rivers State.
+			</td>
+			<td>18 days</td>
+			<td>N9,700,000</td>
+			<td><input type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td><img class="img3" src="image/b5.jpg"></td>
+			<td>3 Bedroom Flat / Apartment in woji, artillary, Port Harcourt, Rivers State. </td>
+			<td>19 days</td>
+			<td>N12,850,000</td>
+			<td><input type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+		<tr>
+			<td>5</td>
+			<td><img class="img3" src="image/3.jpg"></td>
+			<td>Beautiful 5 Bedroom Apartmemt, 168 Aba Road, Port Harcourt, Rivers State. </td>
+			<td>19 days</td>
+			<td>N7,080,000</td>
+			<td><input type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+		<tr>
+			<td>6</td>
+			<td><img class="img3" src="image/1.jpg"></td>
+			<td>Beautiful 3 Bedroom Apartmemt, 18 Old Aba Road, Port Harcourt, Rivers State. </td>
+			<td>19 days</td>
+			<td>N6,500,000</td>
+			<td><input type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+		<tr>
+			<td>7</td>
+			<td><img class="img3" src="image/1.jpg"></td>
+			<td>Beautiful 3 Bedroom Apartmemt, 18 Old Aba Road, Port Harcourt, Rivers State. </td>
+			<td>21 days</td>
+			<td>N6,200,000</td>
+			<td><input type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+		<tr>
+			<td>8</td>
+			<td><img class="img3" src="image/Tranquil-5-Bedroom.jpg"></td>
+			<td>TRANQUIL 5 BEDROOM DETACHED DUPLEX,, 168 Aba Road, Port Harcourt, Rivers State.</td>
+			<td>27 days</td>
+			<td>N7,800,000</td>
+			<td><input type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+		<tr>
+			<td>9</td>
+			<td><img class="img3" src="image/Tranquil-5-Bedroom.jpg"></td>
+			<td>Luxury 4 Bedroom Duplex With Excellent Facilities, 18 Old Aba Road, Port Harcourt, Rivers State.</td>
+			<td>2 months</td>
+			<td>N6,800,000</td>
+			<td><input class="tab-input" type="number" name="amount"></td>
+			<td><div class="tab">Bid Now </div></td>
+		</tr>
+
+	</tbody>
+</table>
+	<div class="bid-pop">
+		<img src="image/good.png">
+		 Bid Success
+		 <div class="butClose">close</div>
+
+	</div>
+	
+</section>
+
+<section class="add-admin">
+	<form action="config/market.inc.php" method="POST">
+		<label>Type of Property</label>
+		<input type="text" name="prt_type">
+
+		<label>Brief Discription</label>
+		<input type="text" name="description">
+
+		<label>Contact email</label>
+		<input type="text" name="email">
+
+		<label>Phone Number</label>
+		<input type="text" name="phone">
+
+		<label>Location</label>
+		<input type="text" name="location">
+
+		<label>Amount</label>
+		<input type="text" name="amount">
+
+		<a class="button"href="config/file-upload.inc.php">Upload image </a>
+		<button class="button" type="submit" name="submit">Add</button>
+		
+	</form>
+
+</section>
+
+<section class="view-adminnew">
+	<h3>Apartments for lease</h3>
+
+		<div class="geo-serv">
+			
+				<img src="image/b1.jpg">
+			</div>
+			<div class="geo-serv">
+				<img class="img" src="image/b2.jpg">
+		</div>
+		<div class="geo-serv">
+				<img src="image/5.jpeg">
+		</div>
+		<div class="text">
+			<h5>Well furnished and spacious 2 bedroom apartment, Orazi, Port Harcourt, Rivers State. <strong> N650,000 per Annual</strong> </h5>
+
+			<h4></h4>
+		</div>
+		
+		<div class="text">
+			<h5>Beautiful 2 Bedroom luxury apartments. At Ada George, Port Harcourt, Rivers State. N680,000 per Annual</h5>
+			
+		</div>
+		
+		<div class="text">
+			<h5>Beautiful 5 Bedroom Private Self -Compound Apartment With Swimming at GRA Port Harcourt, Rivers State.
+			N1,700,000</h5>
+			
+		</div>
+
+		<div class="geo-serv">
+				<img src="image/b5.jpg">
+		</div>
+		<div class="geo-serv">
+				<img src="image/3.jpg">
+		</div>
+		<div class="geo-serv">
+				<img src="image/1.jpg">
+		</div>
+		<div class="text">
+			<h5>3 Bedroom Flat / Apartment in woji, artillary, Port Harcourt, Rivers State. 1,850,000 per Biennial</h5>
+		</div>
+		<div class="text">
+			<h5>Short Let: Beautiful 5 Bedroom Apartmemt, 168 Aba Road, Port Harcourt, Rivers State. 780,000 per Annual</h5>
+		</div>
+		
+		
+		<div class="text">
+			<h5>Beautiful 3 Bedroom Apartmemt, 18 Old Aba Road, Port Harcourt, Rivers State. 650,000 per Annual </h5>
+		</div>
+
+
+		<div class="geo-serv">
+				<img src="image/g5.jpeg">
+		</div>
+		<div class="geo-serv">
+				<img src="image/Tranquil-5-Bedroom.jpg">
+		</div>
+		<div class="geo-serv">
+				<img src="image/4-bed.jpg">
+		</div>
+		<div class="text">
+			<h5>Short Let: Beautiful Five Bedroom Apartment, in Oroazi, Rumuola, Port Harcourt, Rivers State. 1,250,000 per Annual</h5>
+		</div>
+		<div class="text">
+			<h5>TRANQUIL 5 BEDROOM DETACHED DUPLEX,, 168 Aba Road, Port Harcourt, Rivers State. 780,000 per Annual</h5>
+		</div>
+		
+		
+		<div class="text">
+			<h5>Short Let: Luxury 4 Bedroom Duplex With Excellent Facilities, 18 Old Aba Road, Port Harcourt, Rivers State. 650,000 per Annual </h5>
+		</div>
+
+</section>
+<section class="bid">
+	<table>
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th><img src=""></th>
+			<th>Decription</th>
+			<th>Time left</th>
+			<th>Amount</th>
+			
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td><img class="img3" src="image/b1.jpg"></td>
+			<td>Well furnished and spacious 2 bedroom apartment, Orazi, Port Harcourt, Rivers State.</td>
+			<td>1 day</td>
+			<td>N650,000</td>
+			
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td><img class="img3" src="image/b2.jpg"></td>
+			<td>Beautiful 2 Bedroom luxury apartments. At Ada George, Port Harcourt, Rivers State.  </td>
+			<td>12 days</td>
+			<td>N6,500,000</td>
+			
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<script src="dashboard.js"></script>
+</body>
+</html>

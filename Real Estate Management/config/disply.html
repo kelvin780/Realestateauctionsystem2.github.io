@@ -1,0 +1,60 @@
+<?php 
+include '../database.php'; 
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>display</title>
+	<link rel="stylesheet" type="text/css" href="Student table form.css">
+</head>
+<body>
+<?php
+	$sql = "SELECT * FROM bid_tablbe;";
+	$result = mysqli_query($conn, $sql);
+	$resultCheck = mysqli_num_rows($result);
+
+	if ($resultCheck > 0) {
+		while ($row = mysqli_fetch_assoc($result)) {
+			echo $row['prt_type'] . "<br>";
+			echo $row['description'] . "<br>";
+		}
+	}
+?>
+<div class="table"> 
+<table>
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>p type</th>
+			<th>decription</th>
+			<th>location</th>
+			<th>email</th>
+			<th>amount</th>
+			<th>Bid</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>land</td>
+			<td>enough</td>
+			<td>agip</td>
+			<td>jame@hm</td>
+			<td>6550</td>
+			<td><button class="tab-but">Bid</button></td>
+		</tr>
+
+		<tr>
+			<td><img class="img3" src="uploads/asa.jpg"></td>
+			<td>land</td>
+			<td>enough</td>
+			<td>agip</td>
+			<td>jame@hm</td>
+			<td>6550</td>
+			<td><button class="tab-but">Bid</button></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.gadas{
+	margin:auto;
+	font: bold 10px white Arial;
+	color: darkblue;
+	text-align: center;
+	text-transform: uppercase; 
+}
+.login input{
+	width: 100%;
+	
+}
+.login-details{
+	border: darkblue 2px solid;
+	width: 60%;
+	height: 400px;
+	background-color: black;
+	font: 10px Tohoma;
+	padding: 10px;
+	margin: auto;
+	color:  white;
+
+
+}
+.login-details label{
+	display: block;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		margin-top: 20px;
+	font: 10px white Tohoma;
+
+}
+
+
+.form input{
+	width: 100%;
+			padding-bottom: 10px;
+			font-size: 10px;
+			padding: 5px;
+}
+
+.button:hover{
+color: red;
+
+}
+.button:active{
+	color: green;
+}
+.button{
+margin-top: 10px;
+	padding-top: 10px;
+
+}
+.but{
+	padding: 5px 10px;
+	text-align: center;
+	margin-top: 25px;
+	text-decoration: none;
+	background: blue;
+}
+.signUp input{
+		width: 100%;
+			padding-bottom: 10px;
+	background: black;
+	font: 10px Tohoma;
+	margin: auto;
+	display: block;
+}
+.forgot-form{
+border: darkblue 1px solid;
+width: 60%;
+padding: 10px;
+display: block;
+}
+.butt{
+	padding: 5px 10px;
+	text-align: center;
+	background: blue;
+}

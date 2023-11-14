@@ -1,0 +1,426 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.user h3{
+	font: bold 20px arial black;
+	margin-top: 10px;
+	padding: 0px 20px;
+	color: white;
+}
+.space{
+	height: 20px;
+}
+.user-pic{
+	width: 70px;
+	height: 70px;
+	background:green;
+	margin-top: 20px;
+	margin-left: 10px;
+	border-radius: 50%;
+	position: absolute;
+	right: 30px;
+	top: 0px;
+
+}
+.cont1 {
+	background: white;
+	width: 100px;
+	padding: 5px;
+	margin-top: 7px;
+	position: relative;
+	right: 17px;
+	opacity: 0;
+	transform: scale(0.1);
+}
+*{
+	margin: 0px;
+	text-decoration: none;
+}
+.Make{
+	background: darkgreen;
+	color: white;
+	width: 50%;
+	text-align: center;
+}
+h2{
+	font: bold 30px darkgreen Arial;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	padding: 10px 2px;
+}
+.form{
+
+	width: 50%;
+	margin-left: 65px;
+	font-size: 18px;
+	
+}
+.form input{
+	width: 75%;
+	padding: 10px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+.submit{
+	background: green;
+	padding: 8px;
+	margin-top: 10px;
+	color: white;
+	font-size: 18px;
+}
+.bid-pop{
+	width: 25%;
+	height: 350px;
+	color: green;
+	background: white;
+	text-align: center;
+	font: bold 30px arial;
+	align-items: center;
+	border: solid 2px grey;
+	box-shadow: currentColor;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	opacity: 0;
+	transform: scale(0.1);
+
+}
+
+.bid-pop img{
+	margin-top: 10px;
+	width: 70%;
+	align-items: center;
+}
+.popup{
+	opacity: 1;
+	transform: scale(1);
+	top: 150px;
+	/*transition: 2s;*/
+}
+
+.butClose{
+	font: bold 20px arial;
+	background: red;
+	color: white;
+	padding: 7px 9px;
+	height: 30px;
+	width: 30%;
+	text-align: center;
+	align-items: center;
+	position: relative;
+	left: 110px;
+	top: 20px;
+	cursor: pointer;
+}
+.cont1 hr{
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.cont1 a{
+	text-decoration: none;
+	color: black;
+	margin-top: 15px;
+}
+.user-pic img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.dash{
+	background: darkgreen;
+	width: 100%;
+	height:130px;
+}
+.dash  h1{
+	font: bold 40px arial black;
+	padding-top: 20px;
+	margin-left: 20px;
+	color: white;
+}
+.Admin-cont{
+	background: green;
+	width: 15%;
+	height: 450px;
+	padding: 20px;
+}
+.Admin-cont ul {
+	list-style: none;
+	display: inline-block;
+	font: 17px arial;
+	width: 100%;
+}
+.Admin-cont ul li{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px white;
+	cursor: pointer;
+	color: white;
+}
+.Admin-cont ul li:last-child{
+		border-bottom: none;
+	}
+.Admin-cont ul li:hover {
+	color: red;
+	background: linear-gradient(transparent, lightgreen);
+}
+.upload {
+	width: 68%;
+	font-size: 18px;
+	background: linear-gradient(transparent, lightgreen, transparent);
+	padding: 30px;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	height: 430px;
+	padding-left: 180px;
+	padding-right: 0px;
+
+}
+.upload form{
+	margin: auto;
+}
+.upload input{
+	display: block;
+	width: 70%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.upload button{
+	width: 18%;
+	padding: 5px;
+	color: white;
+	background: darkgreen;
+	border-radius: 15px;
+}
+.file{
+	width: 14%;
+}
+.add-admin{
+	width: 68%;
+	font-size: 18px;
+	background: linear-gradient(transparent, lightgreen, transparent);
+	padding: 30px;
+	position: absolute;
+	top: -550px;
+	left: 250px;
+	height: 430px;
+	padding-left: 180px;
+	padding-right: 0px;
+	opacity: 0;
+	transform: scale(0.1);
+
+}
+.add-admin input {
+	display: block;
+	width: 60%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 18px;
+}
+.add-admin button{
+	width: 18%;
+	padding: 5px;
+	color: white;
+	background: darkgreen;
+	border-radius: 15px;
+}
+.bid{
+	background: linear-gradient(transparent, lightgreen, transparent);
+	width: 68%;
+	font-size: 18px;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	height: 430px;
+	padding-left: 180px;
+	padding-right: 0px;
+	padding-top: 30px;
+	opacity: 0;
+	transform: scale(0.1);
+}
+.view-adminnew{
+	background: linear-gradient(transparent, lightgreen, transparent);
+	width: 68%;
+	font-size: 18px;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	height: 430px;
+	padding-left: 180px;
+	padding-right: 0px;
+	padding-top: 30px;
+	opacity: 0;
+	transform: scale(0.1);
+}
+.usersn {
+	width: 60%;
+	padding-right: 100px;
+
+}
+.usersn h3{
+	display: block;
+	padding-top: 3px;
+}
+.x{
+	text-align: right;
+	margin-left: 620px;
+	padding: 3px;
+	font-size: 17px;
+	position: relative;
+	top: -20px;
+}
+.x:hover{
+	color: red;
+	font-size: 20px;
+}
+.display{
+	opacity: 1;
+	transform: scale(1);
+	top: 150px;
+}
+.remove{
+	opacity: 0;
+	top: -550px;
+	transform: scale(0.1);
+}
+.geo-serv{
+	width: 27%;
+	height: 250px;
+	display: inline-flex;
+	margin-top: 20px;
+	margin-left: 22px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	background-color: red;
+}
+.geo-serv img{
+	width: 100%;
+}
+.text{
+	width: 27%;
+	display: inline-flex;
+	font-size: 23px;
+	text-align: center;
+	margin: auto;
+	margin-left: 22px;
+	margin-right: 10px;
+	background: white;
+}
+.but{
+	width: 27%;
+	display: inline-flex;
+	font-size: 23px;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 22px;
+	margin-right: 10px;
+	background: white;
+
+}
+.but button{
+	width: 100%;
+}
+.text h5{
+	text-align: center;
+	margin: auto;
+	margin-top: 0px;
+	color: black;
+}
+.inpt{
+	width: 27%;
+	display: inline-flex;
+	font-size: 23px;
+	text-align: center;
+	margin: auto;
+	margin-left: 22px;
+	margin-right: 10px;
+	
+}
+.inpt input{
+	width: 100%;
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+.button{
+	margin-top: 10px;
+
+}
+.button a{
+	text-decoration: none;
+	color: white;
+}
+.item{
+	width: 20%;
+	display: inline-flex;
+	font-size: 18px;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+.item img{
+	width: 100%;
+	
+	padding: 0px;
+}
+.item-cont{
+ background: red;
+}
+.img3{
+	width: 100%;
+	height: 100px;
+}
+.table
+{
+	width: 100%;
+}
+.tab{
+	width: 100%;
+	background: green;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 0px;
+	cursor: pointer;
+	margin: auto;
+}
+.tab a{
+	width: 100%;
+	text-decoration: none;
+	margin: auto;
+}
+.tab-input{
+	color: black;
+	background: white;
+}
+.tab:hover{
+	color: red;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+
+}
+
+table th {
+	text-align: center;
+	background-color: #3a6070;
+  	color:white;
+	padding: 10px;
+
+	
+}
+table td {
+	border: 3px solid #e3e3e3;
+	padding: 10px 8px;
+	width: 10%;
+	}
+table tr: nt-child(odd) td {
+	
+}

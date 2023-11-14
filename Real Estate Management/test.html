@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+</head>
+<body>
+	<form>
+		<label>Type of Property</label>
+		<input type="text" name="prt_type">
+
+		<label>Brief Discription</label>
+		<input type="text" name="description">
+
+		<label>Contact email</label>
+		<input type="text" name="email">
+
+		<label>Location</label>
+		<input type="text" name="location">
+
+		<label>Amount</label>
+		<input type="text" name="amount">
+
+		
+		
+		
+	</form>
+<button class="button" type="submit" name="submit">Add</button>
+<div class="bid-pop">
+		<img src="image/good.png">
+		 Bid Success
+		 <div class="butClose">close</div>
+
+	</div>
+	<script type="text/javascript">
+	const pop = document.querySelector('.bid-pop');
+	const but = document.querySelector('.button');
+	const butClose = document.querySelector('.butClose');		
+	but.addEventListener('click', function () {
+	
+	pop.classList.add('display');
+	pop.classList.remove('remove');
+		});
+	butClose.addEventListener('click', function () {
+	
+	pop.classList.add('remove');
+
+		});
+	</script>
+</body>
+</html>
